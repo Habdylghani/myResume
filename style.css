@@ -1,0 +1,212 @@
+body{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: space-around;
+}
+.header{
+  		flex-basis: 100%;
+}
+.icon{
+	flex-basis: 100%;
+	padding-left: 15px;
+	order:1;
+}
+.appelation{
+	flex-basis: 75%;
+}
+.information{
+	flex-basis: 25%;
+	order:2;
+}
+.langue_parascolaire{
+	flex-basis: 25%;
+	order: 2;
+}
+.recommandation{
+	flex-basis: 50%;
+	order: 2;
+}
+.formation_experience{
+	flex-basis: 100%;
+	order: 2;
+}
+.competence{
+	flex-basis: 100%;
+	order: 2;
+}
+.projet{
+	flex-basis: 50%;
+	order: 2;
+}
+.certification{
+	flex-basis: 50%;
+	order: 2;
+}
+.centre{
+	display:flex;
+	order:2;
+	flex-basis: 100%;
+	align-items: left;
+}
+.centre-1{
+	flex:1;
+	align-content: center;
+}
+.centre-2 {
+	flex:1;
+	align-content: center;
+}
+.centre-3 {
+	flex:1;
+	align-content: center;
+}
+.footer{
+  	flex-basis: 100%;
+  	order:3;
+}
+
+@media screen and (max-width: 1000px){
+	#ensem{
+		display: none;
+	}
+	.header{
+  		flex-basis: 100%;
+	}
+	.icon{
+		flex-basis: 100%;
+		order:1;
+		align-content: center;
+	}
+	.appelation{
+		flex-basis: 75%;
+		order:0;
+	}
+	.recommandation{
+		flex-basis: 100%;
+		order:2;
+	}
+	.information{
+		flex-basis: 50%;
+		order:3;
+	}
+	.langue_parascolaire{
+		flex-basis: 50%;
+		order:3;
+	}
+	.formation_experience{
+	flex-basis: 100%;
+	order: 3;
+	}
+	.competence{
+		flex-basis: 100%;
+		order:3;
+	}
+	.projet{
+		flex-basis: 50%;
+		order: 3;
+	}
+	.certification{
+		flex-basis: 50%;
+		order: 3;
+	}
+	.centre{
+		display:flex;
+		order:4;
+		flex-basis: 100%;
+	}
+	.centre-1{
+		flex:1;
+		align-items : center;
+	}
+	.centre-2 {
+		flex:1;
+		align-items : center;
+	}
+	.centre-3 {
+		flex:1;
+		align-items : center;
+	}
+	.footer{
+	  	flex-basis: 100%;
+	  	order: 5;
+	}
+	.school{
+		text-align: right;
+		color: #010101;
+		font-family: CALIST;
+		font-style: italic;
+		font-size:1.8em;
+	}
+	.three_c {
+		padding-left: 10%;
+		padding-right: 10%;
+		column-count: 2;
+		font-family: Uni-Sans-Book;
+		font-size:1em;
+		color: #000000;
+	}
+}
+
+@media screen and (max-width: 700px){
+	#ensem{
+		display: none;
+	}
+	.information{
+		flex-basis: 100%;
+		order:2;
+	}
+	.recommandation{
+		flex-basis: 100%;
+		order:1;
+	}
+	.langue_parascolaire{
+		flex-basis: 100%;
+		order:2;
+	}
+	.projet{
+		flex-basis: 100%;
+	}
+	.certification{
+		flex-basis: 100%;
+	}
+	.centre{
+		display:flex;
+		order:3;
+		flex-basis: 100%;
+		flex-direction: column;
+		align-items: center;
+
+	}
+	.centre-1{
+		flex:1;
+		align-items : center;
+	}
+	.centre-2 {
+		flex:1;
+		align-items : center;
+	}
+	.centre-3 {
+		flex:1;
+		align-items : center;
+	}
+	.footer{
+	  	flex-basis: 100%;
+	  	order: 4;
+	}
+	.school{
+		text-align: right;
+		color: #010101;
+		font-family: CALIST;
+		font-style: italic;
+		font-size:1.8em;
+	}
+	.three_c {
+		padding-left: 10%;
+		padding-right: 10%;
+		column-count: 2;
+		font-family: Uni-Sans-Book;
+		font-size:1em;
+		color: #000000;
+	}
+}
